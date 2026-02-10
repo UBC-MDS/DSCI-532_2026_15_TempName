@@ -1,0 +1,8 @@
+name: 532_group_project
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - shiny
+  - shinywidgets
+prefix: /Users/michaeleirikson/miniconda3/envs/532_group_project
