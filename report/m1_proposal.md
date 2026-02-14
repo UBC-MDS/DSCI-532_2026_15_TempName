@@ -111,8 +111,7 @@ output: html_document
 >
 > **Outcome:** so I can identify which regions are lagging behind and require targeted policy attention.
 >
-> **JTBD 2:**
-> **Situation:** When designing policies to bridge gender inequality in education,
+> **JTBD 2:** **Situation:** When designing policies to bridge gender inequality in education,
 >
 > **Motivation:** I want to compare different education variables separately for male and female students across different education levels
 >
@@ -128,8 +127,22 @@ output: html_document
 
 ## Section 4: Exploratory Data Analysis
 
-To be completed - Harry
+JTBD 1:
+
+Situation: When I am evaluating the overall performance of education systems across countries,
+
+Motivation: I want to compare key education indicators such as completion rates and literacy rates across regions,
+
+Outcome: so I can identify which regions are lagging behind and require targeted policy attention.
+
+**Analysis:** The bar chart in `notebooks/EDA.ipynb` reveals critical patterns in global education performance across levels and genders. Completion rates show a progressive decline from primary (\~41-42%) to upper secondary (\~22-23%), indicating significant student attrition as education levels advance. Gender parity is largely maintained within each education level, with minimal differences between male and female completion rates. Youth literacy rates remain high and gender-balanced (\~35-36%), suggesting foundational literacy skills are being achieved despite lower completion rates at higher education levels. These findings highlight that while access to basic education is relatively equitable, retention through secondary education remains a major challenge requiring targeted interventions to reduce dropout rates.
 
 ## Section 5: App Sketch & Description
 
-To be completed - Harry
+![Sketch](../img/sketch.png)
+
+The dashboard opens with a global heat map that provides an overview of selected education indicators across countries. Countries are color-coded based on the chosen metric, and hovering over a country reveals its exact value. This allows users to quickly identify global patterns and outliers while still accessing information for each country individually.
+
+A filter panel on the left enables users to refine the view by region, education level, indicator type, value range, and gender. Filters are applied intentionally to update all visual components together. The interface also supports a multipanel layout, allowing users to compare different indicators side by side.
+
+Below the map, bar charts and scatter plots provide deeper comparative insights across regions, education levels, or gender. A scrollable data table displays the filtered dataset for transparency and detailed inspection. Overall, the dashboard is designed to move from global overview to targeted comparison in a structured and intuitive way.
