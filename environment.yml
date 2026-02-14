@@ -1,8 +1,15 @@
-name: 532_group_project
+name: '532'
 channels:
   - conda-forge
 dependencies:
-  - python=3.10
+  - numpy
+  - plotly
+  - matplotlib
+  - pandas
+  - python
+  - ipykernel
+  - seaborn
+  - scienceplots
+  - scikit-learn
+  - nbformat
   - shiny
-  - shinywidgets
-prefix: /Users/michaeleirikson/miniconda3/envs/532_group_project
