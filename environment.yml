@@ -13,4 +13,3 @@ dependencies:
   - scikit-learn
   - nbformat
   - shiny
-prefix: /Users/harry/miniforge3/envs/532
